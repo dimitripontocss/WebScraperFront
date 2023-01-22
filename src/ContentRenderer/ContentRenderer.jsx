@@ -18,7 +18,7 @@ function RenderNews({news}){
       <div>
         <h4>
           {
-          actualDate === date ? spTime+" " : date+" "
+            actualDate === date ? spTime+" " : date.split("-").reverse().join("-")+" "
           }
           - RTS - <a href={news.url} target="_blank">{news.title}</a></h4>
       </div>
