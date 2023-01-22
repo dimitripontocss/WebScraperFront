@@ -1,4 +1,4 @@
-# <p align = "center"> WebScraper API </p>
+# <p align = "center">Front-End WebScraper Reuters</p>
 
 <p align = "center">
    <img src="https://img.shields.io/badge/author-dimitripontocss-4dae71?style=flat-square" />
