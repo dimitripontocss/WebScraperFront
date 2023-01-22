@@ -4,7 +4,7 @@ export default function ContentRenderer({ data }){
     return(
         <div>
             {
-                data.map((news)=> <RenderNews news={news} key={news.id}/>)
+                data.length === 0 ? "No data yet..." :data.map((news)=> <RenderNews news={news} key={news.id}/>)
             }
         </div>
     )
