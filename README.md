@@ -5,14 +5,13 @@
    <img src="https://img.shields.io/github/languages/count/dimitripontocss/projeto22-ReSantuario-back?color=4dae71&style=flat-square" />
 </p>
 
-## :clipboard: Descrição
+## :clipboard: Description
 
-Esse é o código do front utilizado para exibir os dados do web scraping do site: https://www.reuters.com/markets/currencies/.
-Para usar o front use tambem a Api deste repositório: https://github.com/dimitripontocss/WebScraperAxia
+This is the source code of the front-end utilized to show the data scraped by the Web Scraper on this repository: https://github.com/dimitripontocss/WebScraperAxia.
 
 ---
 
-## :computer: Tecnologias utilizadas
+## :computer: Technologies used
 
 - Vite
 - React
@@ -20,23 +19,23 @@ Para usar o front use tambem a Api deste repositório: https://github.com/dimitr
 
 ---
 
-## 🏁 Rodando a aplicação
+## 🏁 Running the application
 
-Para roda é necessário ter Node.js e npm instalados na sua máquina.
+In order to use it you gotta have NodeJs and NPM installed.
 
-Primeiro, clone o repositório:
+First, clone the repository:
 
 ```
 git clone https://github.com/dimitripontocss/WebScraperFront
 ```
 
-Depois rode o seguinte comando para instalar as dependências:
+Then run the following command to install the dependencies:
 
 ```
 npm install
 ```
 
-Agora rode esse comando e sua aplicação estara rodando em: http://localhost:5173/
+Now run the command and the application will be running at: http://localhost:5173/
 
 ```
 npm run dev
